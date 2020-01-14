@@ -4,7 +4,7 @@ FROM openjdk:8-alpine
 
 LABEL maintainer="Magno Biét <magno.biet@gmail.com>"
 
-ARG SONAR_SCANNER_CLI_VERSION="3.3.0.1492"
+ARG SONAR_SCANNER_CLI_VERSION="4.2.0.1873"
 
 RUN apk add --no-cache curl sed unzip nodejs
 
