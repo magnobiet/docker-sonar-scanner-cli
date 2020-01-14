@@ -22,4 +22,4 @@ ENV PATH $PATH:$SONAR_RUNNER_HOME/bin
 
 RUN sed -i 's/use_embedded_jre=true/use_embedded_jre=false/g' $SONAR_RUNNER_HOME/bin/sonar-scanner
 
-CMD sonar-scanner
+CMD sonar-scanner -X
